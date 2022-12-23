@@ -1,0 +1,9 @@
+#Write a code using a function to check whether a given number is even or odd
+num = [int(input("Enter a num"))]
+def evenodd(num1):
+    for x in num:
+        if x % 2 == 0:
+            print("the entered num is even")
+        else:
+            print("the entered num is odd")
+evenodd(num)
